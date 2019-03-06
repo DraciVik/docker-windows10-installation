@@ -31,3 +31,32 @@ Before downloading it is best if you create a Docker account by filling out this
 Next follow [this](https://hub.docker.com/editions/community/docker-ce-desktop-windows) link to go to the Docker Desktop for Windows download page and click on the "Get Docker" button to begin downloading
 
 ![alt text](img/docker-download-button.png "Docker download")
+
+Navigate to the directory of your download and double click on the installation file
+![alt text](img/docker-file.png "Docker file")
+
+The following screen will appear
+
+![alt text](img/docker-download-screen.png "Docker download screen")
+
+Followed by this one:
+
+![alt text](img/docker-configuration-screen.png "Docker configuration screen")
+
+Click the "Ok" button to accept the default configuration.
+
+Docker for Windows will now install
+
+![alt text](img/unpacking-docker-files.png "Docker installation process")
+
+Depending on your PC configuration this process should finish relatively fast
+
+After it is finished you will get the following screen
+
+![alt text](img/installation-finished.png "Docker installation finished")
+
+Click "Close"
+
+Open Docker Desktop
+
+![alt text](img/docker-desktop-icon.png "Docker Desktop icon")
