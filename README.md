@@ -55,8 +55,18 @@ After it is finished you will get the following screen
 
 ![alt text](img/installation-finished.png "Docker installation finished")
 
-Click "Close"
+Click "Close".
 
-Open Docker Desktop
+To start the program navigate to the directory you installed the Docker in and open the "Docker for Windows" file
 
-![alt text](img/docker-desktop-icon.png "Docker Desktop icon")
+![alt text](img/docker-start-icon.png "Docker start icon")
+
+The following screen should appear on the bottom right of your screen
+
+![alt text](img/docker-desktop-starting.png "Docker Desktop starting")
+
+Followed by the welcome pop-up
+
+![alt text](img/docker-welcome-pop-up.png "Docker Welcome Pop-up")
+
+Enter your credentials to log in.
