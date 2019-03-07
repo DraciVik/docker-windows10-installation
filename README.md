@@ -104,7 +104,7 @@ docker-compose -f docker-compose.dev.yml up
 
 A similar output should occur:
 
-![alt text](img/container-in-background.png "Container in background output")
+![alt text](img/container-in-foreground.png "Container in foreground output")
 
 A pop-up will appear asking whether you want to share drive. Select "Share it" to continue.
 
@@ -115,3 +115,23 @@ If your PC is password protected you should see this pop-up as well.
 ![alt text](img/docker-access.png "docker access")
 
 Fill it with your credentials.
+
+Next MySQL will be started followed by lh-toolkit on the containers.
+
+2. Run the container in the background:
+
+```
+docker-compose -f docker-compose.dev.yml up -d
+```
+
+A similar output should occur:
+
+![alt text](img/container-in-background.png "Container in background output")
+
+In order to stop the container at any type type `ctrl+c` in the "Command Prompt" window.
+
+The follwing will be shown in that case:
+
+![alt text](img/docker-server-stop.png "Docker server stop")
+
+---
