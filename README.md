@@ -4,6 +4,8 @@ Docker is a full development platform for creating containerized apps, and Docke
 
 To check if you have Docker already installed on your system open a terminal window by navigating to Command Prompt with clicking on: Start >> Type "cmd" >> Right click on "Command Prompt", select "Run as Administrator" and select "Yes" to open Command Prompt as an Administrator.
 
+---
+
 In the terminal type:
 
 ```
@@ -15,6 +17,8 @@ If you see the following output:
 ![alt text](img/docker-not-installed-message.png "Docker not installed message")
 
 Then you need to install docker.
+
+---
 
 ## First make sure your PC satisfies the following minimum system requirements:
 
@@ -33,6 +37,7 @@ Next follow [this](https://hub.docker.com/editions/community/docker-ce-desktop-w
 ![alt text](img/docker-download-button.png "Docker download")
 
 Navigate to the directory of your download and double click on the installation file
+
 ![alt text](img/docker-file.png "Docker file")
 
 The following screen will appear
@@ -70,3 +75,43 @@ Followed by the welcome pop-up
 ![alt text](img/docker-welcome-pop-up.png "Docker Welcome Pop-up")
 
 Enter your credentials to log in.
+
+**With that your Docker is set up and you can start using it.**
+
+---
+
+Next we need to pull the container image.
+
+In the "Command Prompt" type:
+
+```
+docker pull registry.gitlab.com/librehealth/toolkit/lh-toolkit-docker:latest
+```
+
+You should see a similar output:
+
+![alt text](img/pulling-container-image.png "Pulling a container image output")
+
+Navigate to the directory where you cloned the repository.
+
+There are two ways to interact with the container:
+
+1. Run the container in the foreground:
+
+```
+docker-compose -f docker-compose.dev.yml up
+```
+
+A similar output should occur:
+
+![alt text](img/container-in-background.png "Container in background output")
+
+A pop-up will appear asking whether you want to share drive. Select "Share it" to continue.
+
+![alt text](img/share-pop-up.png "pop-up")
+
+If your PC is password protected you should see this pop-up as well.
+
+![alt text](img/docker-access.png "docker access")
+
+Fill it with your credentials.
