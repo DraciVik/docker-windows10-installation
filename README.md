@@ -36,11 +36,11 @@ To find out more about Docker for Windows you can follow the steps below or watc
 
 Before downloading it is best if you create a Docker account by filling out this [form](https://hub.docker.com/signup) and then signing in with the newly created account.
 
-Next follow [this](https://hub.docker.com/editions/community/docker-ce-desktop-windows) link to go to the Docker Desktop for Windows download page and click on the "Get Docker" button to begin downloading
+Next follow [this](https://hub.docker.com/editions/community/docker-ce-desktop-windows) link to go to the Docker Desktop for Windows download page and click on the "Get Docker" button to begin downloading.
 
 ![alt text](img/docker-download-button.png "Docker download")
 
-Navigate to the directory of your download and double click on the installation file
+Navigate to the directory of your download and double-click on the installation file
 
 ![alt text](img/docker-file.png "Docker file")
 
@@ -54,13 +54,13 @@ Followed by this one:
 
 Click the "Ok" button to accept the default configuration.
 
-Docker for Windows will now install
+Docker for Windows will now install.
 
 ![alt text](img/unpacking-docker-files.png "Docker installation process")
 
-Depending on your PC configuration this process should finish relatively fast
+Depending on your PC configuration this process should finish relatively fast.
 
-After it is finished you will get the following screen
+After it is finished you will get the following screen:
 
 ![alt text](img/installation-finished.png "Docker installation finished")
 
@@ -176,9 +176,9 @@ However, if you try to run this docker image from outside of this project direct
 
 ![alt text](img/wrong-path-name.png "Output from the 'docker-compose down' command")
 
-To avoud it make sure you're in the right directory and enter the command again.
+To avoid it make sure you are in the right directory and enter the command again.
 
-If you try to pull an image before starting the Docker Daemon, you will see a similiar error to this one:
+If you try to pull an image before starting the Docker Daemon, you will see a similar error to this one:
 
 ![alt text](img/no-daemon-pull-request.png "Output when Docker daemon is not running")
 
