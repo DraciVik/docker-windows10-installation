@@ -2,7 +2,7 @@
 
 Docker is a full development platform for creating containerized apps, and Docker Desktop for Windows is the best way to get started with Docker on _Windows_.
 
-To check if you have Docker already installed on your system open a terminal window by navigating to Command Prompt with clicking on: Start >> Type "cmd" >> Right click on "Command Prompt", select "Run as Administrator" and select "Yes" to open Command Prompt as an Administrator.
+To check if you have Docker already installed on your system open a terminal window by navigating to Command Prompt by clicking on: Start >> Type "cmd" >> Right click on "Command Prompt", select "Run as Administrator" and select "Yes" to open Command Prompt as an Administrator.
 
 ---
 
@@ -17,6 +17,10 @@ If you see the following output:
 ![alt text](img/docker-not-installed-message.png "Docker not installed message")
 
 Then you need to install docker.
+
+To find out more about Docker for Windows you can follow the steps below or watch this YouTube video:
+
+[![Docker for Windows 10](img/youtube-thumbnail.png)](https://youtu.be/iJeL2tOFfvM?t=14 "Docker for Windows 10")
 
 ---
 
@@ -171,3 +175,17 @@ When you are pulling the container image, the directory you are in does not matt
 However, if you try to run this docker image from outside of this project directory, you will get the following error:
 
 ![alt text](img/wrong-path-name.png "Output from the 'docker-compose down' command")
+
+To avoud it make sure you're in the right directory and enter the command again.
+
+If you try to pull an image before starting the Docker Daemon, you will see a similiar error to this one:
+
+![alt text](img/no-daemon-pull-request.png "Output when Docker daemon is not running")
+
+Navigate to the directory you installed the Docker in and open the "Docker for Windows" file.
+
+You might see a similar warning on older systems:
+
+![alt text](img/old-windows.png "No Windows output")
+
+Ignore it or update your system and continue to the next step.
