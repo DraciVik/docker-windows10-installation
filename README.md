@@ -128,10 +128,46 @@ A similar output should occur:
 
 ![alt text](img/container-in-background.png "Container in background output")
 
-In order to stop the container at any type type `ctrl+c` in the "Command Prompt" window.
+In order to stop the container at any time type `ctrl+c` in the "Command Prompt" window.
 
 The follwing will be shown in that case:
 
 ![alt text](img/docker-server-stop.png "Docker server stop")
 
 ---
+
+### Using lh-toolkit
+
+To start using lh-toolkit, open a tab with this address: [http://localhost:8080/lh-toolkit/](http://localhost:8080/lh-toolkit/) then log in with the following credentials:
+
+- **User**: admin
+- **Pass**: Admin123
+
+![alt text](img/lh-sign-in.png "Sign in page for Libre Health toolkit")
+
+The following will occur after a successful log in
+
+![alt text](img/sign-in-success.png "Successful sign in page")
+
+## Bringing container down
+
+---
+
+To bring the container down and to free space on your machine run:
+
+```
+docker-compose down
+```
+
+You should see a similar output:
+
+![alt text](img/bringing-container-down.png "Output from the 'docker-compose down' command")
+
+## Troubleshooting
+
+---
+
+When you are pulling the container image, the directory you are in does not matter.
+However, if you try to run this docker image from outside of this project directory, you will get the following error:
+
+![alt text](img/wrong-path-name.png "Output from the 'docker-compose down' command")
