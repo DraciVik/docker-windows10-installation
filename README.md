@@ -2,7 +2,7 @@
 
 Docker is a full development platform for creating containerized apps, and Docker Desktop for Windows is the best way to get started with Docker on _Windows_.
 
-To check if you have Docker already installed on your system open a terminal window by navigating to Command Prompt by clicking on: Start >> Type "cmd" >> Right click on "Command Prompt", select "Run as Administrator" and select "Yes" to open Command Prompt as an Administrator.
+To check if you have Docker already installed on your system open a terminal window by navigating to "Windows PowerShell" by clicking on: Start >> Type "Windows PowerShell" >> Right click on "Windows PowerShell", select "Run as Administrator" and select "Yes" to open Windows PowerShell as an Administrator.
 
 ---
 
@@ -84,19 +84,7 @@ Enter your credentials to log in.
 
 ---
 
-Next we need to pull the container image.
-
-In the "Command Prompt" type:
-
-```
-docker pull registry.gitlab.com/librehealth/toolkit/lh-toolkit-docker:latest
-```
-
-You should see a similar output:
-
-![alt text](img/pulling-container-image.png "Pulling a container image output")
-
-Navigate to the directory where you cloned the repository.
+Next navigate to the directory where you cloned the repository.
 
 There are two ways to interact with the container:
 
@@ -171,8 +159,7 @@ You should see a similar output:
 
 ---
 
-When you are pulling the container image, the directory you are in does not matter.
-However, if you try to run this docker image from outside of this project directory, you will get the following error:
+If you try to run this docker image from outside of this project directory, you will get the following error:
 
 ![alt text](img/wrong-path-name.png "Output from the 'docker-compose down' command")
 
